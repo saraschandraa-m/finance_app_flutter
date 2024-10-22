@@ -70,7 +70,7 @@ class _CompoundInterestPageState extends State<CompoundInterestPage> {
                         borderRadius: BorderRadius.circular(5),
                         border: Border.all(color: const Color(0xff777784)),
                       ),
-                      margin: const EdgeInsets.fromLTRB(16, 48, 16, 16),
+                      margin: const EdgeInsets.fromLTRB(16, 24, 16, 16),
                       child: TextField(
                         controller: principalInvestmentController,
                         keyboardType: TextInputType.number,
@@ -208,7 +208,7 @@ class _CompoundInterestPageState extends State<CompoundInterestPage> {
                     Visibility(
                       visible: showCompoundInterest,
                       child: Container(
-                        margin: const EdgeInsets.fromLTRB(16, 48, 16, 16),
+                        margin: const EdgeInsets.fromLTRB(16, 16, 16, 16),
                         child: Column(
                           children: [
                             const Text(
@@ -248,7 +248,7 @@ class _CompoundInterestPageState extends State<CompoundInterestPage> {
                                       ],
                                     ),
                                     Container(
-                                      height: 20,
+                                      height: 8,
                                     ),
                                     Row(
                                       children: [
