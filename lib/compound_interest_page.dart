@@ -47,7 +47,7 @@ class _CompoundInterestPageState extends State<CompoundInterestPage> {
             backgroundColor: Colors.white,
             body: SingleChildScrollView(
               child: Container(
-                padding: const EdgeInsets.all(8),
+                margin: const EdgeInsets.all(8),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
