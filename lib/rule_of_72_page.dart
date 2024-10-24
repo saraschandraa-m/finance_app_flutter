@@ -43,7 +43,7 @@ class _RuleOf72PageState extends State<RuleOf72Page> {
         backgroundColor: Colors.white,
         body: SingleChildScrollView(
           child: Container(
-            padding: const EdgeInsets.all(8),
+            margin: const EdgeInsets.all(8),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -208,6 +208,10 @@ class _RuleOf72PageState extends State<RuleOf72Page> {
                     ),
                   ),
                 ),
+
+                Container(
+                  height: 200,
+                )
               ],
             ),
           ),
